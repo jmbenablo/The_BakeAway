@@ -1,6 +1,51 @@
 body
 {
-	background-color: #5cf2f2;
+	background-color: #5ebfff;
 	background-image: url('../src/food.png');
+	cursor: url("../src/cupcakepurple.ani"), url("../src/cupcakepurple.gif"), auto;
+	color: white;
+}
 
+#nav-home > li
+{
+	padding: 5px 10px 5px 10px;
+
+
+
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	color:white;
+	font-size: 16px;
+}
+
+#nav-home > li:hover
+{
+	background-color: #ffc2fd;
+	text-align: center;
+	color: #777;
+}
+
+.navbar
+{
+	background-color:#ffa3ff;
+	border: dashed 1px #ba4a00;
+}
+
+#tagline
+{
+	font-weight:normal;
+	font-style:italic;
+	font-variant:small-caps;
+	color:white;
+	letter-spacing:1pt;
+	word-spacing:2pt;
+	
+	top: -30px;
+	font-family:comic sans, comic sans ms, cursive, verdana, arial, sans-serif;
+	line-height:1;
+	margin:0px;
+	padding:0px;
+	position: relative;
 }
